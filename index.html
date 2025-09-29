@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meu Top 20 Filmes - A Locadora Pessoal</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header id="header">
+    <div class="logo">
+      <h1>A Locadora do Top 20</h1>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Saiba Mais</a></li>
+        <li><a href="#contact">Contato</a></li>
+        <li><a href="#share">Compartilhar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="main-container">
+    <aside id="sidebar">
+      <h2>Lista de Filmes</h2>
+      <nav class="movie-list-nav">
+        <ol>
+          <li><a href="#filme1">1. Esposa de Mentirinha</a></li>
+          <li><a href="#filme2">2. Mulheres ao Ataque</a></li>
+          <li><a href="#filme3">3. Crepúsculo</a></li>
+          <li><a href="#filme4">4. Para Todos os Garotos que Já Amei</a></li>
+          <li><a href="#filme5">5. A Proposta</a></li>
+          <li><a href="#filme6">6. Miss Simpatia</a></li>
+          <li><a href="#filme7">7. As Branquelas</a></li>
+          <li><a href="#filme8">8. Zootopia</a></li>
+          <li><a href="#filme9">9. Enrolados</a></li>
+          <li><a href="#filme10">10. Como Eu Era Antes de Você</a></li>
+          <li><a href="#filme11">11. Todos Menos Você</a></li>
+          <li><a href="#filme12">12. Como Perder um Homem em 10 Dias</a></li>
+          <li><a href="#filme13">13. Noivas em Guerra</a></li>
+          <li><a href="#filme14">14. Vovó... Zona</a></li>
+          <li><a href="#filme15">15. As Apimentadas - Tudo ou Nada</a></li>
+          <li><a href="#filme16">16. De Repente 30</a></li>
+          <li><a href="#filme17">17. O Diabo Veste Prada</a></li>
+          <li><a href="#filme18">18. Nem Por Cima do Meu Cadáver</a></li>
+          <li><a href="#filme19">19. A Nova Cinderela</a></li>
+          <li><a href="#filme20">20. Descendentes</a></li>
+        </ol>
+      </nav>
+    </aside>
+
+    <main id="main-content">
+      <h2>O Meu Ranking Pessoal: A Locadora de Filmes Favoritos</h2>
+      <p>Role para ver os 20 filmes e clique nas opções "Emprestar" ou "Vender" para simular a transação.</p>
+
+      <!-- Filme 1 -->
+      <section class="movie-ranking" id="filme1">
+        <div class="ranking-header">
+          <h3>#1: Esposa de Mentirinha (2011)</h3>
+          <span class="rank-number">1º Lugar</span>
+        </div>
+        <p>Uma comédia romântica divertida sobre um cirurgião que contrata uma atriz para fingir ser sua esposa.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/pt/9/9e/Just_Go_with_it_P%C3%B4ster.jpg" alt="Poster do filme Esposa de Mentirinha" class="movie-poster" />
+        <div class="locadora-actions">
+          <button class="action-btn emprestar-btn" onclick="simularLocacao('filme1', 'Emprestar')">Emprestar (R$ 5,00)</button>
+          <button class="action-btn vender-btn" onclick="simularLocacao('filme1', 'Vender')">Vender (R$ 30,00)</button>
+          <p class="status-locacao" id="status-filme1">Disponível para locação.</p>
+        </div>
+      </section>
+
+      <!-- Filme 2 -->
+      <section class="movie-ranking" id="filme2">
+        <div class="ranking-header">
+          <h3>#2: Mulheres ao Ataque (2020)</h3>
+          <span class="rank-number">2º Lugar</span>
+        </div>
+        <p>Uma jovem descobre que seu namorado é casado com outra mulher e decide entrar em contato com a esposa dele para propor que as duas se vinguem juntas. Uma estranha amizade começa a nascer entre as duas, mas a situação piora quando elas descobrem que uma terceira mulher está envolvida. Logo, a terceira pretendente se une ao grupo para também participar da vingança.</p>
+        <img src="https://play-lh.googleusercontent.com/iniaednkygipBQTH5K1a3F09Z-cfCzCriyoHASa9BZX4GvrrijDHDAF8y2YXye60JhcQQg" alt="Poster do filme Mulheres ao Ataque" class="movie-poster" />
+        <div class="locadora-actions">
+          <button class="action-btn emprestar-btn" onclick="simularLocacao('filme2', 'Emprestar')">Emprestar (R$ 5,00)</button>
+          <button class="action-btn vender-btn" onclick="simularLocacao('filme2', 'Vender')">Vender (R$ 30,00)</button>
+          <p class="status-locacao" id="status-filme2">Disponível para locação.</p>
+        </div>
+      </section>
+
+      <!-- Filme 3 -->
+      <section class="movie-ranking" id="filme3">
+        <div class="ranking-header">
+          <h3>#3: Crepúsculo (2008)</h3>
+          <span class="rank-number">3º Lugar</span>
+        </div>
+        <p>Romance sobrenatural entre uma humana e um vampiro, repleto de drama e suspense.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/pt/c/c1/Twilight_Poster.jpg" alt="Poster do filme Crepúsculo" class="movie-poster" />
+        <div class="locadora-actions">
+          <button class="action-btn emprestar-btn" onclick="simularLocacao('filme3', 'Emprestar')">Emprestar (R$ 5,00)</button>
+          <button class="action-btn vender-btn" onclick="simularLocacao('filme3', 'Vender')">Vender (R$ 30,00)</button>
+          <p class="status-locacao" id="status-filme3">Disponível para locação.</p>
+        </div>
+      </section>
+
+      <!-- Filme 4 -->
+      <section class="movie-ranking" id="filme4">
+        <div class="ranking-header">
+          <h3>#4: Para Todos os Garotos que Já Amei (2018)</h3>
+          <span class="rank-number">4º Lugar</span>
+        </div>
+        <p>Uma adolescente tem sua vida amorosa exposta quando suas cartas de amor secretas são enviadas aos destinatários.</p>
+        <img src="https://br.web.img3.acsta.net/pictures/18/07/27/13/53/2854483.jpg" alt="Poster do filme Para Todos os Garotos que Já Amei" class="movie-poster" />
+        <div class="locadora-actions">
+          <button class="action-btn emprestar-btn" onclick="simularLocacao('filme4', 'Emprestar')">Emprestar (R$ 5,00)</button>
+          <button class="action-btn vender-btn" onclick="simularLocacao('filme4', 'Vender')">Vender (R$ 30,00)</button>
+          <p class="status-locacao" id="status-filme4">Disponível para locação.</p>
+        </div>
+      </section>
+
+      <!-- Filme 5 -->
+      <section class="movie-ranking" id="filme5">
+        <div class="ranking-header">
+          <h3>#5: A Proposta (2009)</h3>
+          <span class="rank-number">5º Lugar</span>
+        </div>
+        <p>Uma chefe exigente força seu assistente a um casamento falso para evitar a deportação.</p>
+        <img src="https://br.web.img3.acsta.net/medias/nmedia/18/87/29/75/19874043.jpg" alt="Poster do filme A Proposta" class="movie-poster" />
+        <div class="locadora-actions">
+          <button class="action-btn emprestar-btn" onclick="simularLocacao('filme5', 'Emprestar')">Emprestar (R$ 5,00)</button>
+          <button class="action-btn vender-btn" onclick="simularLocacao('filme5', 'Vender')">Vender (R$ 30,00)</button>
+          <p class="status-locacao" id="status-filme5">Disponível para locação.</p>
+        </div>
+      </section>
+
+      <!-- Filme 6 -->
+      <section class="movie-ranking" id="filme6">
+        <div class="ranking-header">
+          <h3>#6: Miss Simpatia (2000)</h3>
+          <span class="rank-number">6º Lugar</span>
+        </div>
+        <p>Uma agente do FBI disfarçada participa de um concurso de beleza para capturar um criminoso.</p>
+        <img src="https://static.wikia.nocookie.net/dublagempedia/images/4/44/Misssimpat.jpg/revision/latest?cb=20201125170329&path-prefix=pt-br" alt="Poster do filme Miss Simpatia" class="movie-poster" />
+        <div class="locadora-actions">
+          <button class="action-btn emprestar-btn" onclick="simularLocacao('filme6', 'Emprestar')">Emprestar (R$ 5,00)</button>
+          <button class="action-btn vender-btn" onclick="simularLocacao('filme6', 'Vender')">Vender (R$ 30,00)</button>
+          <p class="status-locacao" id="status-filme6">Disponível para locação.</p>
+        </div>
+      </section>
+
+      <!-- Filme 7 -->
+      <section class="movie-ranking" id="filme7">
+        <div class="ranking-header">
+          <h3>#7: As Branquelas (2004)</h3>
+          <span class="rank-number">7º Lugar</span>
+        </div>
+        <p>Dois agentes do FBI se disfarçam de socialites para impedir um crime.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/pt/d/de/White_chicks.jpeg" alt="Poster do filme As Branquelas" class="movie-poster" />
+        <div class="locadora-actions">
+          <button class="action-btn emprestar-btn" onclick="simularLocacao('filme7', 'Emprestar')">Emprestar (R$ 5,00)</button>
+          <button class="action-btn vender-btn" onclick="simularLocacao('filme7', 'Vender')">Vender (R$ 30,00)</button>
+          <p class="status-locacao" id="status-filme7">Disponível para locação.</p>
+        </div>
+      </section>
+
+      <!-- Filme 8 -->
+      <section class="movie-ranking" id="filme8">
+        <div class="ranking-header">
+          <h3>#8: Zootopia (2016)</h3>
+          <span class="rank-number">8º Lugar</span>
+        </div>
+        <p>Uma cidade habitada por animais antropomórficos e a policial coelha Judy em uma investigação.</p>
+        <img src="https://play-lh.googleusercontent.com/RKwnKXe8i53FA_O_bRPX9NDQYsetgo_G1K2Ks9fnBeIxRNYNEQD5CX4OOsQ5PLa8U_-QmCnMh0g8BOiMfA" alt="Poster do filme Zootopia" class="movie-poster" />
+        <div class="locadora-actions">
+          <button class="action-btn emprestar-btn" onclick="simularLocacao('filme8', 'Emprestar')">Emprestar (R$ 5,00)</button>
+          <button class="action-btn vender-btn" onclick="simularLocacao('filme8', 'Vender')">Vender (R$ 30,00)</button>
+          <p class="status-locacao" id="status-filme8">Disponível para locação.</p>
+        </div>
+      </section>
+
+      <!-- Filme 9 -->
+      <section class="movie-ranking" id="filme9">
+        <div class="ranking-header">
+          <h3>#9: Enrolados (2010)</h3>
+          <span class="rank-number">9º Lugar</span>
+        </div>
+        <p>Uma versão divertida e musical da história da Rapunzel.</p>
+        <img src="https://m.media-amazon.com/images/I/A1lwzdAFrmL._UF350,350_QL50_.jpg" alt="Poster do filme Enrolados" class="movie-poster" />
+        <div class="locadora-actions">
+          <button class="action-btn emprestar-btn" onclick="simularLocacao('filme9', 'Emprestar')">Emprestar (R$ 5,00)</button>
+          <button class="action-btn vender-btn" onclick="simularLocacao('filme9', 'Vender')">Vender (R$ 30,00)</button>
+          <p class="status-locacao" id="status-filme9">Disponível para locação.</p>
+        </div>
+      </section>
+
+      <!-- Filme 10 -->
+      <section class="movie-ranking" id="filme10">
+        <div class="ranking-header">
+          <h3>#10: Como Eu Era Antes de Você (2016)</h3>
+          <span class="rank-number">10º Lugar</span>
+        </div>
+        <p>Um romance emocionante entre uma cuidadora e um homem tetraplégico.</p>
+        <img src="https://m.media-amazon.com/images/I/915+JFp47-L._UF894,1000_QL80_.jpg" alt="Poster do filme Como Eu Era Antes de Você" class="movie-poster" />
+        <div class="locadora-actions">
+          <button class="action-btn emprestar-btn" onclick="simularLocacao('filme10', 'Emprestar')">Emprestar (R$ 5,00)</button>
+          <button class="action-btn vender-btn" onclick="simularLocacao('filme10', 'Vender')">Vender (R$ 30,00)</button>
+          <p class="status-locacao" id="status-filme10">Disponível para locação.</p>
+        </div>
+      </section>
+
+      <!-- Filme 11 -->
+      <section class="movie-ranking" id="filme11">
+        <div class="ranking-header">
+          <h3>#11: Todos Menos Você (2008)</h3>
+          <span class="rank-number">11º Lugar</span>
+        </div>
+        <p>Bea e Ben têm um primeiro encontro incrível, mas a atração inicial logo se torna ódio mútuo. Um casamento na Austrália força a aproximação dos dois, que decidem fingir um relacionamento para enganar a família e os amigos.</p>
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSgq4HgefMkbAAyUwlTjuY9yBSubI08uAW5iIqIH5cY3MdfGORN" alt="Poster do filme Todos Menos Você" class="movie-poster" />
+        <div class="locadora-actions">
+          <button class="action-btn emprestar-btn" onclick="simularLocacao('filme11', 'Emprestar')">Emprestar (R$ 5,00)</button>
+          <button class="action-btn vender-btn" onclick="simularLocacao('filme11', 'Vender')">Vender (R$ 30,00)</button>
+          <p class="status-locacao" id="status-filme11">Disponível para locação.</p>
+        </div>
+      </section>
+
+      <!-- Filme 12 -->
+      <section class="movie-ranking" id="filme12">
+        <div class="ranking-header">
+          <h3>#12: Como Perder um Homem em 10 Dias (2003)</h3>
+          <span class="rank-number">12º Lugar</span>
+        </div>
+        <p>Ben é um publicitário que aposta com o chefe que faz qualquer mulher se apaixonar por ele em dez dias. Se conseguir, será o responsável por uma cobiçada campanha de diamantes. Andie é uma jornalista que, por causa de uma matéria, está decidida a infernizar a vida de qualquer homem que se aproximar. Os dois se conhecem em um bar e escolhem um ao outro como alvo de seus planos totalmente opostos.</p>
+        <img src="https://m.media-amazon.com/images/M/MV5BMjE4NTA1NzExN15BMl5BanBnXkFtZTYwNjc3MjM3._V1_FMjpg_UX1000_.jpg" alt="Poster do filme Como Perder um Homem em 10 Dias" class="movie-poster" />
+        <div class="locadora-actions">
+          <button class="action-btn emprestar-btn" onclick="simularLocacao('filme12', 'Emprestar')">Emprestar (R$ 5,00)</button>
+          <button class="action-btn vender-btn" onclick="simularLocacao('filme12', 'Vender')">Vender (R$ 30,00)</button>
+          <p class="status-locacao" id="status-filme12">Disponível para locação.</p>
+        </div>
+      </section>
+
+      <!-- Filme 13 -->
+      <section class="movie-ranking" id="filme13">
+        <div class="ranking-header">
+          <h3>#13: Noivas em Guerra (2009)</h3>
+          <span class="rank-number">13º Lugar</span>
+        </div>
+        <p>Duas mulheres rivais competem para ter o casamento perfeito.</p>
+        <img src="https://m.media-amazon.com/images/M/MV5BZGRmNDkzMjItMmYxNi00MTRkLWE2MDQtOTVmNTBjYTQ4ZmVjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Poster do filme Noivas em Guerra" class="movie-poster" />
+        <div class="locadora-actions">
+          <button class="action-btn emprestar-btn" onclick="simularLocacao('filme13', 'Emprestar')">Emprestar (R$ 5,00)</button>
+          <button class="action-btn vender-btn" onclick="simularLocacao('filme13', 'Vender')">Vender (R$ 30,00)</button>
+          <p class="status-locacao" id="status-filme13">Disponível para locação.</p>
+        </div>
+      </section>
+
+      <!-- Filme 14 -->
+      <section class="movie-ranking" id="filme14">
+        <div class="ranking-header">
+          <h3>#14: Vovó... Zona (2009)</h3>
+          <span class="rank-number">14º Lugar</span>
+        </div>
+        <p>Agente durão do FBI chega ao extremo para ficar na pista de um ladrão violento que fugiu da prisão. Enquanto se disfarça de avó obesa com uma língua afiada, ele é forçado a usar todas as suas habilidades, desde cozinhar a cuidar de crianças.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/pt/0/08/Big_Mommas_Poster.jpg" alt="Poster do filme Vovó... Zona" class="movie-poster" />
+        <div class="locadora-actions">
+          <button class="action-btn emprestar-btn" onclick="simularLocacao('filme14', 'Emprestar')">Emprestar (R$ 5,00)</button>
+          <button class="action-btn vender-btn" onclick="simularLocacao('filme14', 'Vender')">Vender (R$ 30,00)</button>
+          <p class="status-locacao" id="status-filme14">Disponível para locação.</p>
+        </div>
+      </section>
+
+      <!-- Filme 15 -->
+      <section class="movie-ranking" id="filme15">
+        <div class="ranking-header">
+          <h3>#15: As Apimentadas - Tudo ou Nada (2006)</h3>
+          <span class="rank-number">15º Lugar</span>
+        </div>
+        <p>A jovem Britney vive o sonho de ser líder de torcida no colégio em que estuda. O entusiasmo da estudante aumenta ainda mais quando ela descobre que a cantora Rihanna está recrutando meninas para participar de seu novo videoclipe. No entanto, ela é obrigada a se mudar com a família para o outro lado da cidade e se transferir para a escola rival. Enquanto se esforça para ganhar o respeito das novas colegas, Britney precisa lidar com o fato da disputa pelo prêmio ser contra sua antiga escola.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/pt/5/51/Bring_It_On_All_or_Nothing.jpg" alt="Poster do filme As Apimentadas - Tudo ou Nada" class="movie-poster" />
+        <div class="locadora-actions">
+          <button class="action-btn emprestar-btn" onclick="simularLocacao('filme15', 'Emprestar')">Emprestar (R$ 5,00)</button>
+          <button class="action-btn vender-btn" onclick="simularLocacao('filme15', 'Vender')">Vender (R$ 30,00)</button>
+          <p class="status-locacao" id="status-filme15">Disponível para locação.</p>
+        </div>
+      </section>
+
+      <!-- Filme 16 -->
+      <section class="movie-ranking" id="filme16">
+        <div class="ranking-header">
+          <h3>#16: De Repente 30 (2004)</h3>
+          <span class="rank-number">16º Lugar</span>
+        </div>
+        <p>Uma menina acorda como uma mulher adulta de 30 anos e precisa se adaptar.</p>
+        <img src="https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/93/75/86/20275816.jpg" alt="Poster do filme De Repente 30" class="movie-poster" />
+        <div class="locadora-actions">
+          <button class="action-btn emprestar-btn" onclick="simularLocacao('filme16', 'Emprestar')">Emprestar (R$ 5,00)</button>
+          <button class="action-btn vender-btn" onclick="simularLocacao('filme16', 'Vender')">Vender (R$ 30,00)</button>
+          <p class="status-locacao" id="status-filme16">Disponível para locação.</p>
+        </div>
+      </section>
+
+      <!-- Filme 17 -->
+      <section class="movie-ranking" id="filme17">
+        <div class="ranking-header">
+          <h3>#17: O Diabo Veste Prada (2006)</h3>
+          <span class="rank-number">17º Lugar</span>
+        </div>
+        <p>Uma assistente enfrenta a chefe exigente no mundo da moda.</p>
+        <img src="https://m.media-amazon.com/images/S/pv-target-images/8d81579c22e880ac013420e4689ddd2fc1ac379b7159ad01c6c4993d998c60f3.jpg" alt="Poster do filme O Diabo Veste Prada" class="movie-poster" />
+        <div class="locadora-actions">
+          <button class="action-btn emprestar-btn" onclick="simularLocacao('filme17', 'Emprestar')">Emprestar (R$ 5,00)</button>
+          <button class="action-btn vender-btn" onclick="simularLocacao('filme17', 'Vender')">Vender (R$ 30,00)</button>
+          <p class="status-locacao" id="status-filme17">Disponível para locação.</p>
+        </div>
+      </section>
+
+           <!-- Filme 18 -->
+           <section class="movie-ranking" id="filme18">
+            <div class="ranking-header">
+              <h3>#18: Nem Por Cima do Meu Cadáver (2002)</h3>
+              <span class="rank-number">18º Lugar</span>
+            </div>
+            <p>O fantasma de uma mulher, que morreu no dia do seu casamento, tenta sabotar o relacionamento de seu ex-noivo com uma vidente que conheceu, na tentativa de se comunicar com a falecida.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/pt/d/d2/Nem_por_cima_do_meu_cadaver.jpg" alt="Poster do filme Nem Por Cima do Meu Cadáver" class="movie-poster" />
+            <div class="locadora-actions">
+              <button class="action-btn emprestar-btn" onclick="simularLocacao('filme18', 'Emprestar')">Emprestar (R$ 5,00)</button>
+              <button class="action-btn vender-btn" onclick="simularLocacao('filme18', 'Vender')">Vender (R$ 30,00)</button>
+              <p class="status-locacao" id="status-filme18">Disponível para locação.</p>
+            </div>
+          </section>
+    
+          <!-- Filme 19 -->
+          <section class="movie-ranking" id="filme19">
+            <div class="ranking-header">
+              <h3>#19: A Nova Cinderela (2004)</h3>
+              <span class="rank-number">19º Lugar</span>
+            </div>
+            <p>Sam é maltratada pela madrasta e sonha em estudar em Princeton. Ela conhece o seu príncipe encantado pela internet, que é o menino mais popular da escola..</p>
+            <img src="https://upload.wikimedia.org/wikipedia/pt/f/f7/A-cinderella-story-poster-profile.jpg" alt="Poster do filme A Nova Cinderela" class="movie-poster" />
+            <div class="locadora-actions">
+              <button class="action-btn emprestar-btn" onclick="simularLocacao('filme19', 'Emprestar')">Emprestar (R$ 5,00)</button>
+              <button class="action-btn vender-btn" onclick="simularLocacao('filme19', 'Vender')">Vender (R$ 30,00)</button>
+              <p class="status-locacao" id="status-filme19">Disponível para locação.</p>
+            </div>
+          </section>
+    
+          <!-- Filme 20 -->
+          <section class="movie-ranking" id="filme20">
+            <div class="ranking-header">
+              <h3>#20: Descendentes (2015)</h3>
+              <span class="rank-number">20º Lugar</span>
+            </div>
+            <p>Filhos dos vilões da Disney tentam encontrar seu caminho longe do mal.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/b/b8/Descendants_P%C3%B4ster.jpg/250px-Descendants_P%C3%B4ster.jpg" alt="Poster do filme Descendentes" class="movie-poster" />
+            <div class="locadora-actions">
+              <button class="action-btn emprestar-btn" onclick="simularLocacao('filme20', 'Emprestar')">Emprestar (R$ 5,00)</button>
+              <button class="action-btn vender-btn" onclick="simularLocacao('filme20', 'Vender')">Vender (R$ 30,00)</button>
+              <p class="status-locacao" id="status-filme20">Disponível para locação.</p>
+            </div>
+          </section>
+    
+        </main>
+    
+    <script>
+      function simularLocacao(filmeId, acao) {
+        const status = document.getElementById(`status-${filmeId}`);
+        if (acao === 'Emprestar') {
+          status.textContent = 'Filme emprestado! Aproveite!';
+          status.style.color = 'green';
+        } else if (acao === 'Vender') {
+          status.textContent = 'Filme vendido! Obrigado pela compra!';
+          status.style.color = 'blue';
+          // Opcional: desabilitar botões após venda
+          const section = document.getElementById(filmeId);
+          const botoes = section.querySelectorAll('button');
+          botoes.forEach(btn => btn.disabled = true);
+        }
+      }
+    </script>
+    </body>
+    </html>
+    
